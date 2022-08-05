@@ -33,26 +33,26 @@
 
     <!-- home section starts -->
     <section class="home pt-4" id="#home">
-      <div class="container-lg ">
-        <div class="row   align-items-center align-contents-center">
-          <div class="col-md-6  mt-md-0">
+      <div class="container-lg">
+        <div class="row align-items-center align-contents-center">
+          <div class="col-md-6 mt-md-0">
             <div class="home-img text-center">
               <img
-                src="images/Profile picture.png"
+                src="images/Profile picture (1).png"
                 alt=""
-                class="rounded-circle mw-100"
+                class="rounded-circle w-75"
               />
             </div>
           </div>
           <div class="col-md-6 mt-5 mt-md-0 order-md-first">
             <div class="home-text">
-              <p>Hello I'm</p>
+              <p class="h5">Hello I'm</p>
               <h1>Prathvi Raj</h1>
-              <a
+              <!-- <a
                 href="#about"
                 class="d-none d-md-inline btn btn-danger px-3 mt-3"
                 >About me</a
-              >
+              > -->
             </div>
           </div>
         </div>
@@ -62,31 +62,80 @@
 
     <!-- About section starts -->
     <section class="about bg-white" id="about">
-      <div class="container-lg py-4">
+      <div class="container-lg py-5">
         <div class="row justify-content-center">
           <div class="col lg-8">
             <div class="section-title text-center">
-              <h2 class="fw-bold mb-5">About Me</h2>
+              <h2 class="fw-bold m-3">About me</h2>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="about-text text-center">
-              <p>
-                Im dash currently working as junior software engineer at
-                Netcracker technology
-              </p>
-            </div>
-            <h3>Education</h3>
-            <h5>BE</h5>
-            <h5>PUC</h5>
-            <a href="" class="btn btn-danger">Download CV</a>
+        <div class="row ">
+          <div class="about-text text-center">
+            <p>
+              Currently working as Junior Software Engineer at
+              <a href="https://www.netcracker.com/">Netcracker technology</a>
+            </p>
           </div>
-          <div class="col">
-            <div class="skills text-center">
-              <h3>Skills</h3>
+          <div class="col-md-6 ">
+            <div class="p-3 education ">
+              <h4 class="text-center">Education</h4>
+              <div class="py-4">
+                <h5>Bachelor of Engineering </h5> 
+                <h6>Mangalore Institute of Technology & Engineering</h6>
+              </div>
+
+              <h5>Pre-University</h5>
+              <h6>Shree Mahaveera College</h6>
             </div>
+          </div>
+          <div class="col ">
+            <div class="p-3 skills">
+              <h4 class="text-center">Skills</h4>
+              <h6>HTML</h6> 
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+                    style="width: 95%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h6>CSS</h6>
+              <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+                      style="width: 70%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h6>JS</h6>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+                    style="width: 25%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+              <h6>BS</h6>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+                    style="width: 80%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+              <h6>C</h6>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                    style="width: 70%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+              <h6>C++</h6>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                    style="width: 75%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+              <h6>Java</h6>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                    style="width: 60%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+              <h6>Python</h6>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                    style="width:65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            </div>
+          </div>
+          <div class="d-inline  text-center ">
+            <a href="" class="btn d-sm-inline btn-danger">Download CV</a>
           </div>
         </div>
       </div>
@@ -94,24 +143,39 @@
     <!-- About section ends -->
 
     <!-- Contact section starts -->
-    <section class="about bg-white" id="contact">
-      <div class="container-lg py-4">
+    <section class="about" id="contact">
+      <div class="container-lg py-5">
         <div class="row justify-content-center">
           <div class="col lg-8">
             <div class="section-title text-center">
-              <h2 class="fw-bold mb-5">Contact</h2>
+              <h2 class="fw-bold mb-3">Contact</h2>
             </div>
           </div>
-          <div class="social-media">
-            <a href="https://www.instagram.com/mr_raj_11._/" target="_blank"><i class="fab h4 p-2 fa-instagram text-danger"></i></a>
-            <a href="https://www.linkedin.com/in/prathviraj11/"  target="_blank"><i class="fab h4 p-2 fa-linkedin text-primary"></i></a>
-            <a href="https://wa.me/9632242283"  target="_blank"><i class="fab h4 p-2 fa-whatsapp text-success"></i></a>
+          <div class="social-media text-center">
+            <a href="mailto:praathviraj@gmail.com" target="_blank"
+              ><i class=" h3 p-2 fas fa-mail-bulk   text-dark"></i
+            ></a>
+            <a href="https://www.instagram.com/mr_raj_11._/" target="_blank"
+              ><i class="fab h3 p-2 fa-instagram text-danger"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/prathviraj11/" target="_blank"
+              ><i class="fab h3 p-2 fa-linkedin text-primary"></i
+            ></a>
+            <a href="https://github.com/prathviraj11" target="_blank"
+              ><i class=" fab h3 p-2 fa-github   text-dark"></i
+            ></a>
           </div>
         </div>
       </div>
     </section>
     <!-- Contact section ends -->
+<i class="  "></i>
+    <footer class="bg-dark">
+      <div>
+        he;;o
+      </div>
 
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

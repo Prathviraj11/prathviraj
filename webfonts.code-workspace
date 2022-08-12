@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "webfonts",
+		"path": "c:\\Users\\Prathviraj\\Desktop\\fontawesome-free-6.1.2-web\\fontawesome-free-6.1.2-web\\webfonts"
+	},
+	{
+		"name": "prathviraj_website",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "prathviraj_website"
+  }
+}
